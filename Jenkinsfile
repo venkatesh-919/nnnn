@@ -1,13 +1,6 @@
 pipeline {
 
     agent any
-    tools {
-
-        maven 'maven-default'
-
-        jdk 'jdk-1.8'
-
-    }
 
         stages {
 
